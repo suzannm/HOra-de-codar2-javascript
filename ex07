@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hora de codar</title>
+</head>
+<body>
+    
+<script>
+
+// 7. Faça um programa que leia 6 números que o usuário vai informar. Todos os números lidos com valor inferior a 72 devem ser somados. Escreva o valor final da soma efetuada e também todos valores que o usuário informou.  
+
+let numeros = [];
+let soma = 0;
+let i = 0;
+while (i < 6) {
+    let numero = parseInt(prompt("Digite um número:"));
+    numeros.push(numero);
+    if (numero < 72) {
+        soma += numero;
+    }
+    i++;
+}
+document.write("Números informados: " + numeros.join(", ") + "<br>");
+document.write("Soma dos números inferiores a 72: " + soma + "<br>");
+
+
+
+
+
+</script>
+
+</body>
+</html>
