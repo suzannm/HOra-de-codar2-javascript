@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hora de codar</title>
+</head>
+<body>
+    
+<script>
+
+// Faça um programa para ler 3 valores (considere que não serão informados valores iguais) e escrever o maior deles.//
+
+let a = 10;
+let b = 20; 
+let c = 30;
+let maior;
+if (a > b && a > c) {
+    maior = a;
+} else if (b > a && b > c) {
+    maior = b;
+} else {
+    maior = c;
+}
+
+
+
+</script>
+
+</body>
+</html>
