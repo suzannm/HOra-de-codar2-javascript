@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hora de codar</title>
+</head>
+<body>
+    
+<script>
+
+//10 Tendo como entrada a altura e o gênero designado ao nascer (codificado da seguinte forma: 1: feminino - 2: masculino - ) de uma pessoa, construa um programa que calcule e imprima seu peso ideal, utilizando as seguintes fórmulas.
+
+var altura = 1.70;
+var genero = 1; // 1: feminino, 2: masculino
+var pesoIdeal;
+if (genero === 1) {
+    pesoIdeal = (62.1 * altura) - 44.7;
+} else if (genero === 2) {
+    pesoIdeal = (72.7 * altura) - 58;
+} else {
+    console.log("Gênero inválido");
+}
+console.log("Peso ideal: " + pesoIdeal.toFixed(2) + " kg");
+
+
+
+
+
+</script>
