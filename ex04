@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hora de codar</title>
+</head>
+<body>
+    
+<script>
+
+// 4. Faça um programa que leia 3 valores informados pelo usuário (considere que não serão informados valores iguais) e escrever a soma dos 2 maiores.
+
+
+let valor1 = parseFloat(prompt("Digite o primeiro valor:"));
+let valor2 = parseFloat(prompt("Digite o segundo valor:")); 
+let valor3 = parseFloat(prompt("Digite o terceiro valor:"));
+let maior1, maior2;
+if (valor1 > valor2 && valor1 > valor3) {
+    maior1 = valor1;
+    maior2 = Math.max(valor2, valor3);
+} else if (valor2 > valor1 && valor2 > valor3) {
+    maior1 = valor2;
+    maior2 = Math.max(valor1, valor3);
+} else {
+
+    prompt("O valor digitado não é válido");
+    maior1 = valor3;
+    maior2 = Math.max(valor1, valor2);
+}
+
+
+</script>
+
+</body>
+</html>
